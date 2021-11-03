@@ -146,3 +146,6 @@ foreach ($duplicateUserID in $duplicateUsers) {
     #Spit all this out
     Write-Output $informationString
 }
+
+#Pause so the output can be viewed if it isn't opened in a terminal window
+Read-Host -Prompt "Press enter to continue"
